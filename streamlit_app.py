@@ -1,10 +1,11 @@
-from sre_constants import GROUPREF_EXISTS
-import streamlit
-import pandas as pd
 
-import requests
 
-import snowflake.connector
+import streamlit # type: ignore
+import pandas as pd # type: ignore
+
+import requests # type: ignore
+
+import snowflake.connector # type: ignore
 
 from urllib.error import URLError
 
