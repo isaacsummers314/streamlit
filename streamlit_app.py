@@ -1,5 +1,3 @@
-from codecs import ignore_errors
-
 import streamlit
 import pandas as pd
 
